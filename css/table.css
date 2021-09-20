@@ -1,0 +1,14 @@
+.reinfate-table input::-webkit-outer-spin-button,
+.reinfate-table input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reinfate-table input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+.reinfate-table .form-item input {
+  max-width: 50px;
+  text-align: center;
+}

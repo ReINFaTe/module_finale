@@ -1,0 +1,8 @@
+final_module.table_page:
+  path: '/reinfate-form'
+  defaults:
+    _title: 'Form'
+    _form: 'Drupal\reinfate\Form\ReinfateTable'
+  requirements:
+    _permission: 'access content'
+

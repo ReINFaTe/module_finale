@@ -1,0 +1,4 @@
+reinfate_table:
+  css:
+    theme:
+      css/table.css: {}
