@@ -85,7 +85,7 @@ class ReinfateTable extends FormBase {
   }
 
   /**
-   * Validate single table.
+   * Validate tables.
    */
   protected function validateTables(array $values, FormStateInterface $form_state) {
     $tablesPlainValues = [];
